@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(182, 166, 166);
+	height: 100vh;
+}
+.container {
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #676767;
+	max-width: 90%;
+	height: 100%;
+}
+.container h3 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.container p {
+	font-size: 22px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.container p.message {
+	color: rgb(0, 52, 0);
+	display: none;
+}
+.trip-form {
+	width: 40%;
+	margin: 0 auto;
+	/* border: 2px solid #313131; */
+	box-shadow: 0px 0px 5px 0px #313131;
+	border-radius: 15px;
+	padding: 30px 20px;
+}
+.trip-form input {
+	font-size: 16px;
+	padding: 10px 15px;
+	background-color: rgb(227, 210, 210);
+	border: 0;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.trip-form label {
+	font-size: 16px;
+	padding: 10px 0px;	
+}
+.trip-form textarea {
+	resize: none;
+	font-size: 16px;
+	padding: 10px 15px;
+	border: 0px;
+	background-color: rgb(227, 210, 210);
+
+	margin-bottom: 10px;
+	width: 100%;
+}
+.trip-form textarea::placeholder{
+	color: #313131;
+
+}
+.trip-form input::placeholder{
+	color: #313131;
+}
+.trip-form input[type="radio"] {
+	width: 10%;
+}
+.trip-form .btn {
+	padding: 5px 15px;
+	cursor: pointer;
+	font-size: 18px;
+	color: #fff;
+	line-height: 28px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	background-color: rgb(99, 99, 211);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Welcome To Our Website</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h3>Trip Form</h3>
+			<p>Submit this form To Confirm Detail</p>
+			<p class="message">Thanks For The Confim Your Detail</p>
+			<form action="index.php" class="trip-form" method="post
+			">
+                <input type="text" name="fname" placeholder="Enter First Name">
+                <input type="text" name="lname" placeholder="Enter Last Name">
+                <input type="text" name="phone" placeholder="Enter phone">
+				<input type="email" name="email" placeholder="Your Email">
+				<input type="text" placeholder="Your age">
+				<input type="radio" id="male"name="gender">
+				<label for="male">Male</label>
+				<input type="radio" id="female"name="gender">
+				<label for="female">Female</label>
+				<textarea name="msg" id="" rows="3" placeholder="enter Other Info"></textarea>
+				<button class="btn">Submit</button>
+				<button class="btn">Reset</button>
+            </form>
+		</div>
+		<script src="app.js"></script>
+		
+	</body>
+</html>
